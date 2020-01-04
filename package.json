@@ -1,0 +1,24 @@
+{
+  "name": "typescript-quickstart",
+  "version": "0.1.0",
+  "description": "a TypeScript quickstart",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project .",
+    "test":"jest"
+  },
+  "repository": "https://github.com/aredwood/typescript-quickstart.git",
+  "author": "Alex Redwood <aredwood@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
+  }
+}
